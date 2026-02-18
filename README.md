@@ -35,10 +35,10 @@ The dataset is imbalanced, requiring careful evaluation.
 
 Domain-driven feature engineering was applied:
 
-- `is_new_customer` → tenure-based indicator  
-- `avg_monthly_spend` → totalcharges / tenure  
-- `long_contract` → long-term contract flag  
-- `monthly_to_total_ratio` → spending consistency metric  
+- is_new_customer → tenure-based indicator  
+- avg_monthly_spend → totalcharges / tenure  
+- long_contract → long-term contract flag  
+- monthly_to_total_ratio → spending consistency metric  
 
 These engineered features improved both model performance and interpretability.
 
