@@ -18,14 +18,14 @@ Dataset Link: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 The dataset contains:
 
-- `tenure`
-- `monthlycharges`
-- `totalcharges`
-- `contract`
-- `paymentmethod`
+- tenure
+- monthlycharges
+- totalcharges
+- contract
+- paymentmethod
 
 Target Variable:
-- `Churn` (1 = churn, 0 = retained)
+- Churn (1 = churn, 0 = retained)
 
 The dataset is imbalanced, requiring careful evaluation.
 
@@ -87,9 +87,9 @@ The model is both accurate and interpretable.
 
 The final model was:
 
-- Exported using `joblib`
+- Exported using joblib
 - Deployed via **FastAPI**
-- Exposed through a `POST /predict` endpoint
+- Exposed through a POST /predict endpoint
 - Integrated with a Bootstrap-based web interface
 
 Users can input customer attributes and receive:
