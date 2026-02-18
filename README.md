@@ -118,5 +118,29 @@ Users can input customer attributes and receive:
 
 ---
 
+## Tech Stack
+
+Data & Feature Engineering
+- Python
+- Pandas
+- NumPy
+- PostgreSQL
+
+Machine Learning
+- Sci-kit Learn
+
+Model Explainability
+- SHAP
+
+Backend
+- FastAPI
+- Jinja
+
+Frontend
+- HTML
+- Bootstrap 5
+
+---
+
 ### End-to-End ML System  
 From business problem → data processing → modeling → explainability → deployment.
