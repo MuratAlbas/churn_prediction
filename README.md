@@ -1,5 +1,5 @@
 # Customer Churn Prediction  
-### End-to-End Machine Learning System with Deployment
+### End-to-End Machine Learning System
 
 This project aims to:
 
